@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+    <title>Rod Stephen Espiritu</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="IMG_8750.jpg" alt="Your Name" class="profile-image">
+            <h1>Rod Stephen Espiritu</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cheatsheet">Cheatsheet</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>On a warm December day in 1997, the Philippines welcomed the arrival of <b><em>Rod Stephen
+                        Espiritu</em></b>.
+                Little did the world know that this day marked the beginning of a remarkable journey, one that
+                would be characterized by love and joy that would shape the world.</p>
+            <p>Born in the heart of the Philippines, Rod Stephen or you can call him Rod for short has spent his
+                formative years surrounded by the rich culture, warm hospitality, and natural beauty.</p>
+            <p>In the tapestry of Rod's life, the chapter of love and
+                companionship shines brightly. He found a soulmate in Erica and embarked on the journey of marriage,
+                creating a partnership grounded in mutual respect, shared dreams, and unwavering support.
+                The story of Rod and Erica is a testament to the strength found in unity.</p>
+
+            <div class="image-gallery2">
+                <button id="viewRodErica">View Images of Rod and Erica</button>
+            </div>
+            <div class="modal2" id="imageModal2">
+                <span class="close2" id="closeModal2">&times;</span>
+                <div class="modal-content2">
+                    <img src="RE1.jpg" alt="Rod & Erica Image 1">
+                    <img src="RE2.jpg" alt="Rod & Erica Image 2">
+                    <img src="RE3.jpg" alt="Rod & Erica Image 3">
+                    <img src="RE4.jpg" alt="Rod & Erica Image 4">
+                </div>
+            </div>
+
+            <p>Adding a delightful layer to Rod's life is a furry friend named Chloe. This lovable dog has
+                become more than a pet, she is a cherished member of the family. The tales of walks in the park,
+                playful antics, and the unconditional love exchanged between Rod and Chloe enrich the pages
+                of his journey.</p>
+
+            <div class="image-gallery">
+                <button id="viewChloe">View Images of Chloe</button>
+            </div>
+
+            <div class="modal" id="imageModal">
+                <span class="close" id="closeModal">&times;</span>
+                <div class="modal-content">
+                    <img src="chloe1.jpg" alt="Chloe Image 1">
+                    <img src="chloe2.jpg" alt="Chloe Image 2">
+                    <img src="chloe3.jpg" alt="Chloe Image 3">
+                    <img src="chloe4.jpg" alt="Chloe Image 4">
+                </div>
+            </div>
+            <p>In the professional realm, Rod has navigated a path of growth and accomplishment. Currently
+                enrolled at Bow Valley College, he is diligently pursuing a Software Development Diploma.
+                This educational endeavor reflects his commitment to staying at the forefront of his field,
+                equipped with the skills and knowledge to contribute meaningfully.</p>
+            <p>Renowned for his unyielding work ethic and passion, Rod is recognized as
+                a hardworking and passionate individual. In the realm of software programming, he
+                embody a relentless spirit of curiosity and a dedication to continuous learning. This unwavering
+                commitment to personal and professional growth paints a vivid picture of Rod's character.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>My Resume</h2>
+            <div class="project">
+                <img src="resume.png" alt="resume">
+                <button id="downloadResume">Download the Resume</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact:</h2>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/rodmanespiritu" target="_blank"><img src="icons8-facebook-64.png"
+                alt="Facebook"></a>
+        <a href="https://www.instagram.com/rodmanespiritu" target="_blank"><img src="icons8-instagram-64.png"
+                alt="Instagram"></a>
+        <a href="https://twitter.com/RodStephenn" target="_blank"><img src="icons8-twitter-64.png" alt="Twitter"></a>
+    </div>
+
+    <section id="cheatsheet">
+        <div class="container">
+            <h2>HTML, CSS, and JavaScript Cheatsheet</h2>
+
+            <h3>HTML:</h3>
+            <div class="CShtml">
+                <img src="1.png" alt="1">
+            </div>
+            <h3>CSS:</h3>
+            <div class="CScss">
+                <img src="2.png" alt="2">
+            </div>
+            <h3>JAVASCRIPT:</h3>
+            <div class="CSjava">
+                <img src="3.png" alt="3">
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; RodStephenEspiritu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
